@@ -169,7 +169,7 @@ The error occurs because the toplevel does not yet know anything about a
 function named `inc`. Now issue the following directive to the toplevel:
 
 ```ocaml
-# #use "mycode.ml";;
+# #use "3110/mycode.ml";;
 ```
 
 Note that the first `#` character above indicates the toplevel prompt to you.
